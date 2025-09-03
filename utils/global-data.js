@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Transition into Data Science';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Next.js Blog Theme';
+    : 'Data Science Journey';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
